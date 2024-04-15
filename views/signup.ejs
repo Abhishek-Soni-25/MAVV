@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAVV | Sign Up</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/images/Screenshot (165)-modified.png" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: right;
+            padding-right: 7%;
+            align-items: center;
+            height: 100vh;
+            background: url("/images/GST\ CAM\ 917-18.jpg") center/cover no-repeat;
+        }
+
+        .signup-container {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            color: #555;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .label{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        #specializationField {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="signup-container">
+        <h2>Sign Up</h2>
+        <form action="/signup" method="post">
+            <label>Name:</label>
+            <input type="text" name="name" required>
+
+            <label>Age:</label>
+            <input type="number" name="age" required>
+
+            <label>Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label>Mobile Number:</label>
+            <input type="number" name="mobile" required>
+
+            <label>Select your role:</label>
+            <label class="label">
+                <label class="label">
+                    <input type="radio" name="userType" value="Doctor" required onclick="showSpecializationField()" style="margin-bottom: 4px;">
+                    Doctor
+                </label>
+                <label class="label">
+                    <input type="radio" name="userType" value="User" required onclick="hideSpecializationField()" style="margin-bottom: 4px;"> User
+                </label>
+            </label>
+
+            <div id="specializationField">
+                <label>Specialization:</label>
+                <input type="text" name="specialization">
+                
+            </div>
+
+
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+    <script>
+        function showSpecializationField() {
+            document.getElementById('specializationField').style.display = 'block';
+        }
+
+        function hideSpecializationField() {
+            document.getElementById('specializationField').style.display = 'none';
+        }
+    </script>
+
+</body>
+
+</html>

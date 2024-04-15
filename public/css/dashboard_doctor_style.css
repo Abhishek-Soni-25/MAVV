@@ -1,0 +1,276 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: "Poppins";
+}
+
+
+
+.main{
+    display: flex;
+    height: 100vh;
+}
+.section1{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    z-index: 1;
+    box-shadow: 5px 5px 20px rgb(190, 187, 187);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.section1div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+
+
+
+
+
+.section1div1_1 div{
+    text-align: center;
+    background-color: #E3F4FE;
+    border-top-right-radius: 20px;
+    width: 100%;
+    padding-top: 15px;
+}
+.section1div1_1{
+    display: flex;
+}
+.section1div1_2{
+    display: flex;
+    flex-direction: column;
+    background-color: #E3F4FE;
+    height: 150px;
+    justify-content: flex-end;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.section1div1_1 a{
+    text-decoration: none;
+    color: #0a2e47;
+    font-size: 18px;
+    font-weight: 500;
+}
+.section1div1_2 div:nth-child(1){
+    font-size: 20px;
+}
+.section1div1_2 div:nth-child(2){
+    font-size: 20px;
+    font-weight: 500;
+}
+.section1div1_3 a{
+    text-decoration: none;
+    color: rgb(53, 53, 53);
+    font-size: 18px;
+}
+.section1div1_3{
+    margin-left: 25px;
+}
+.section1div1_3 div{
+    margin-bottom: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.section1div2{
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+.section1div2_1,
+.section1div2_2{
+    display: flex;
+    margin-bottom: 7px;
+}
+.section1div2_1 i,
+.section1div2_2 i{
+    font-size: 18px;
+    margin-right: 10px;
+}
+.section1div2_1 a,
+.section1div2_2 a{
+    text-decoration: none;
+    color: rgb(53, 53, 53);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section2{
+    width: 80%;
+    display: flex;
+    background-color: #F1FAFF;
+}
+.section2div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.section2div1{
+    display: flex;
+    height: 50%;
+}
+.section2div1_1{
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+}
+.section2div1_1 div{
+    margin-right: 30px;
+}
+.section2div1_1 div i{
+    font-size: 100px;
+    color: #0a2e47;
+}
+.section2div1_1 div:nth-child(2) div:nth-child(1){
+    font-weight: 700;
+    font-size: 22px;
+}
+.section2div1_1 div:nth-child(2) div:nth-child(2){
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.section2div1_1 div:nth-child(2) div:nth-child(3) a button{
+    border: none;
+    font-size: 12px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px rgb(243 240 240);
+    font-weight: 600;
+}
+.section2div1_2{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.section2div2{
+    display: flex;
+    height: 50%;
+}
+.section2div2_1,
+.section2div2_2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section2div2_1_1,
+.section2div2_2_1{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 90%;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px rgb(156, 156, 156);
+    background-color: white;
+}
+.section2div2_1_1 .section2div2_1_1_1,
+.section2div2_2_1 .section2div2_2_1_1{
+    width: 95%;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #232D36;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+.section2div2_1_1 div:nth-child(1) div:nth-child(1),
+.section2div2_2_1 div:nth-child(1) div:nth-child(1){
+    color: white;
+    font-size: 20px;
+}
+.section2div2_1_1_2,
+.section2div2_2_1_2{
+    height: 90%;
+    width: 95%;
+    background-color: #101D25;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+.section2div2_1_1_3,
+.section2div2_2_1_3{
+    width: 80%;
+    margin: 5px 0px;
+    display: flex;
+    justify-content: center;
+}
+.section2div2_1_1_3 div:nth-child(2) a button,
+.section2div2_2_1_3 div:nth-child(2) a button{
+    border: none;
+    background-color: #4f97d7;
+    color: white;
+    border-radius: 12px;
+    padding: 5px 15px;
+    margin-left: 24px;
+}
+.section2div2_1_1 div:nth-child(3) input,
+.section2div2_2_1 div:nth-child(3) input{
+    padding: 5px 10px;
+    border: none;
+    background-color: #010202;
+    color: white;
+    border-radius: 12px;
+    width: 100%;
+    text-align: center;
+}

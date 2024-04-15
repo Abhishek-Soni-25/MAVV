@@ -1,0 +1,213 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: "Poppins";
+}
+
+
+
+.main{
+    display: flex;
+    height: 100vh;
+}
+.section1{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    z-index: 1;
+    box-shadow: 5px 5px 20px rgb(190, 187, 187);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.section1div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+
+
+
+
+
+.section1div1_1 div{
+    text-align: center;
+    background-color: #E3F4FE;
+    border-top-right-radius: 20px;
+    width: 100%;
+    padding-top: 15px;
+}
+.section1div1_1{
+    display: flex;
+}
+.section1div1_2{
+    display: flex;
+    flex-direction: column;
+    background-color: #E3F4FE;
+    height: 150px;
+    justify-content: flex-end;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.section1div1_1 a{
+    text-decoration: none;
+    color: #0a2e47;
+    font-size: 18px;
+    font-weight: 500;
+}
+.section1div1_2 div:nth-child(1){
+    font-size: 20px;
+}
+.section1div1_2 div:nth-child(2){
+    font-size: 20px;
+    font-weight: 500;
+}
+.section1div1_3 a{
+    text-decoration: none;
+    color: rgb(53, 53, 53);
+    font-size: 18px;
+}
+.section1div1_3{
+    margin-left: 25px;
+}
+.section1div1_3 div{
+    margin-bottom: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.section1div2{
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+.section1div2_1,
+.section1div2_2{
+    display: flex;
+    margin-bottom: 7px;
+}
+.section1div2_1 i,
+.section1div2_2 i{
+    font-size: 18px;
+    margin-right: 10px;
+}
+.section1div2_1 a,
+.section1div2_2 a{
+    text-decoration: none;
+    color: rgb(53, 53, 53);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section2{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+}
+.section2div{
+    display: flex;
+    width: 90%;
+    background-color: #e6f3f3;
+    height: 90%;
+    border-radius: 20px;
+    flex-direction: column;
+    padding: 20px;
+}
+.section2div1{
+    display: flex;
+    justify-content: flex-end;
+}
+.section2div1 button{
+    border: none;
+    background-color: #4577cd;
+    width: 90px;
+    height: 35px;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.section2div2 div:nth-child(1){
+    height: 10px;
+    background-color: #4577cd;
+    margin: 20px 0px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.GO_TO{
+    display: flex;
+    justify-content: center;
+}
+.GO_TO button{
+    border: none;
+    width: 50%;
+    background-color: #4577cd;
+    color: white;
+    border-radius: 10px;
+}
